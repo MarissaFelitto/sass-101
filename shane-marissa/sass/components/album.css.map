@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,OAAO;EACL,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,WAAW;EAEvB,eAAO;IACL,KAAK,EAAE,OAAO;EAEhB,kBAAU;IACR,OAAO,EAAE,OAAM;IACf,MAAM,EAAE,qBAA0B;IAClC,UAAU,EAAE,MAAM;IAClB,SAAS,EAAE,MAAM;IACjB,UAAU,ECdM,uCAAY;IDe5B,WAAW,EEjBA,qBAAS;IFkBpB,OAAO,EAAE,IAAG",
+"sources": ["album.sass","../color/color.sass","../typography/typography.sass"],
+"names": [],
+"file": "album.css"
+}

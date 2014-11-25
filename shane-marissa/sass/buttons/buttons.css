@@ -1,0 +1,18 @@
+button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background: #959595;
+  cursor: pointer;
+  color: #ffffff;
+  background: 135deg, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%; }
+  button a:link {
+    color: #ffffff; }
+  button a:visited {
+    color: #ff0000; }
+
+/*# sourceMappingURL=buttons.css.map */

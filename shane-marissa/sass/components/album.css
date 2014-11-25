@@ -1,0 +1,17 @@
+.albums {
+  width: 23.75em;
+  height: 37.5em;
+  display: inline-block;
+  background: transparent; }
+  .albums .winner {
+    width: 18.75em; }
+  .albums figcaption {
+    padding: 0.313em;
+    border: 0.188em solid #959595;
+    text-align: center;
+    word-wrap: normal;
+    background: to top right, #aebcbf, #6e7774, #0a0809;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.75; }
+
+/*# sourceMappingURL=album.css.map */

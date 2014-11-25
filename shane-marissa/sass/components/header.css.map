@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,OAAO;EACL,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,OAAO;EAClB,UAAU,ECGO,UAAI",
+"sources": ["header.sass","../color/color.sass"],
+"names": [],
+"file": "header.css"
+}
