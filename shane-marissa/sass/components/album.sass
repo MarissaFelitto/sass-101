@@ -1,6 +1,7 @@
-@import 'typography/typography'
-
-@import 'color/color'
+@import '../typography/typography'
+@import '../color/color'
+@import '../color/mixin'
+@import '../color/function'
 
 .albums
   width: 23.75em
@@ -12,11 +13,12 @@
     width: 18.75em
 
   figcaption
+    @include base-gradient(top right, $text-gradient...)
     padding: .313em
     border: .188em solid $accent-color
     text-align: center
     word-wrap: normal
-    background: $caption-gradient
+    // background: $text-gradient
     font-family: $caption-font
-    opacity: .75
+    // opacity: .75
 

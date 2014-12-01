@@ -6,12 +6,13 @@
   .albums .winner {
     width: 18.75em; }
   .albums figcaption {
+    background-color: #aebcbf;
+    background-image: linear-gradient(to top right, #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FFAEBCBF', endColorstr = '#FF0A0809', GradientType = 0);
     padding: 0.313em;
     border: 0.188em solid #959595;
     text-align: center;
     word-wrap: normal;
-    background: to top right, #aebcbf, #6e7774, #0a0809;
-    font-family: "Raleway", sans-serif;
-    opacity: 0.75; }
+    font-family: "Raleway", sans-serif; }
 
 /*# sourceMappingURL=album.css.map */

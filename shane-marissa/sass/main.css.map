@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAIA,IAAI;EACF,gBAAgB,EAAE,4CAA4C;EAC9D,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,KAAK,ECPW,OAAO;;ADSzB,MAAM;EACJ,UAAU,EAAE,MAAM;EAClB,KAAK,ECXW,OAAO;EDYvB,WAAW,EEdI,mBAAO",
-"sources": ["main.sass","color/color.sass","typography/typography.sass"],
+"sources": ["main.sass","color/_color.sass","typography/_typography.sass"],
 "names": [],
 "file": "main.css"
 }

@@ -1,8 +1,9 @@
-@import 'color/color'
+@import '../color/color'
 
+// You cannot use a mixin for text gradient.
 .header
   text-align: center
   font-size: 3.375em
-  background: $header-gradient
-
-
+  background: -webkit-linear-gradient($header-gradient...)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent

@@ -1,6 +1,8 @@
 .header {
   text-align: center;
   font-size: 3.375em;
-  background: #eee, #333; }
+  background: -webkit-linear-gradient(#eeeeee, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 /*# sourceMappingURL=header.css.map */

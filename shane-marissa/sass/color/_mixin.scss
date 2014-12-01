@@ -1,0 +1,13 @@
+// ----
+// libsass (v3.0.1)
+// ----
+
+@mixin base-gradient ($direction, $colors ...) {
+  $startColorstr: get-list-value($colors);
+  $endColorstr: get-list-value($colors, last);
+
+  background-color: $startColorstr;
+  background-image: linear-gradient(to #{$direction}, $colors);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#{ie-hex-str($startColorstr)}',
+  endColorstr = '#{ie-hex-str($endColorstr)}', GradientType = 0);
+}

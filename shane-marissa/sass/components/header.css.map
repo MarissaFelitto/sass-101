@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,OAAO;EACL,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,OAAO;EAClB,UAAU,ECGO,UAAI",
-"sources": ["header.sass","../color/color.sass"],
+"mappings": "AAGA,OAAO;EAEL,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,OAAO;EAClB,UAAU,EAAE,yCAAyC;EACrD,uBAAuB,EAAE,IAAI;EAC7B,uBAAuB,EAAE,WAAW",
+"sources": ["header.sass"],
 "names": [],
 "file": "header.css"
 }

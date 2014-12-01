@@ -1,18 +1,18 @@
-@import 'color/color'
+@import '../color/color'
+@import '../color/mixin'
+@import '../color/function'
 
 button
+  @include base-gradient(top left, $button-gradient...)
   margin-left: auto
   margin-right: auto
   display: block
-  height: 50px
-  width: 50px
-  border-radius: 50px
-  border: 1px solid $primary-color
-  background: $accent-color
+  height: 3.125em
+  width: 3.125em
+  border-radius: 3.125em
+  border: 0.063em solid $primary-color
   cursor: pointer
   color: $secondary-color
-  background: $button-gradient
-
   a:link
     color: $secondary-color
   a:visited

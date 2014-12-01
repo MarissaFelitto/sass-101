@@ -1,0 +1,15 @@
+@function get-list-value($list, $place: first) {
+  @if $place == first {
+    $group: nth($list, 1);
+    $first-object: nth($group, 1);
+
+    @return $first-object
+  } @else if $place == last {
+    $group: nth($list, length($list));
+    $last-object: nth($group, 1);
+
+    @return $last-object
+  } @else {
+    @return 'this is an invalid option'
+  }
+}
